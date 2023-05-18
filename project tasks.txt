@@ -1,0 +1,10 @@
+#Task 1: Remove columns that are not needed in our analysis. Remove Url_spotify, Uri, Key, Url_youtube, Description
+#Task 2: Handle the null values
+#Task 3: CHECK FOR DUPLICATES AND REMOVE THEM KEEPING THE FIRST VALUE
+#Task 4: CONVERT millisecond duration to minute for better understanding
+#Task 5: rename the modified column to Duration_min
+#Task 6: Remove irrelvant track name that starts with ?
+#Task 7: Calculate the Energy to Liveness ratio for each track
+#Task 8: change the datatype of views to float for further use
+#task 9: compare the views and stream columns to infer that the song track was more played on which platform, youtube or spotify create a column named most_playedon which will have two values. Spotify and Youtube, If a song track is most played on youtbe then the most_played on column will have youtube as the the value for that particular song
+
