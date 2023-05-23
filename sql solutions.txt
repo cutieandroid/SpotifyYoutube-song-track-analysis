@@ -1,5 +1,5 @@
 1.select Track, Views from cleaned order by Views desc limit 1;
-2.select Track, Stream from cleaned order by Views desc limit 1;
+2.select Track, Stream from cleaned order by Stream desc limit 1;
 3.select Track, EnergyLiveness from cleaned order by EnergyLiveness desc limit 5;
 4.select count(Track), most_playedon from cleaned where Artist="Black Eyed Peas" group by most_playedon
 5.SELECT Track, Likes, Energy, Tempo from cleaned where Artist="Gorillaz" order by likes desc LIMIT 1;
